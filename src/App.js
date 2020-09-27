@@ -8,6 +8,10 @@ class BooksApp extends React.Component {
   state = {
     booksInLibrary : []
   }
+  
+  ico = () => {
+	  // "this is the first fixed issue"
+  }
 
   viewLibrary = () => {
     BooksAPI.getAll().then(library => {
